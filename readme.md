@@ -66,7 +66,7 @@ Find a way to serialize this data and send it to the front end. You should not h
 
 Build on the existing react-query code in **api.ts** to get the data that you have created using Django. When clicking the "Open Modal" button, display the fetched contractor applications in a modal using tailwindcss classes. You can get creative here, there is no set design, although something along the lines of this would be nice for each application:
 
-![design](./design.png)
+![design](./mobtest/design.png)
 
 Make sure we can view the contractor, their pay rate, nationality and job name with start/end dates on the application(s)
 
