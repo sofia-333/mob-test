@@ -13,28 +13,25 @@
 
 You *may* wish to set up a [virtual environment](https://docs.python.org/3/library/venv.html) for python. For unix/bash you can use:
 ```bash
-cd mob-technical-test
-python3 -m venv mobtest
-source venv/bin/activate
+cd mob-test
+python3 -m venv mobtest-venv
+source mobtest-venv/bin/activate
 python -m pip install -r requirements.txt
 ```
 
 Then start the server:
 ```bash
 cd mobtest
-touch db.sqlite3
 python manage.py runserver
 ```
 
 In a new terminal, start the front end using yarn or npm:
 
 ```bash
-cd frontend
+cd frontend/mobtest-react/
 yarn install
 yarn start
 ```
-
-ctrl or cmd click on the url that shows
 
 
 ## The Task
