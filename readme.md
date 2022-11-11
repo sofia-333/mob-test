@@ -65,7 +65,7 @@ Build on the existing react-query code in **api.ts** to get the data that you ha
 
 ![design](./mobtest/design.png)
 
-Make sure we can view the contractor, their pay rate, nationality and job name with start/end dates on the application(s)
+Make sure we can view the contractor, their pay rate, nationality and job name with start/end dates on the contractor application(s)
 
 You are not required to use Typescript here, but it is desired!
 
@@ -75,7 +75,7 @@ We would advise not spending too long on this as a project, and have set up most
 
 The main goal of the project is for us to be able to review problem solving skills, talk about thought processes, best practices, while giving you an introduction to how our application is set up.
 
-Good luck :)
+Good luck :) show us what you can do!
 
 ![typing fast](https://media.giphy.com/media/UFGj6EYw5JhMQ/giphy.gif)
 
@@ -84,7 +84,7 @@ Good luck :)
 
 ## All done?
 
-Share a link to your repo with us and we'll take a look :eyes:
+No need to add a Pull Request. Share a link to your repo with us and we'll take a look :eyes:
 
   
   
