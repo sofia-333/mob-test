@@ -1,6 +1,8 @@
-from django.contrib.auth.models import User
-from mobtest.serializers import UserSerializer
 from rest_framework import viewsets
+
+from testapp.models import ContractorApplication, Contractor
+from testapp.serializers import ContractorApplicationSerializer, ContractorSerializer
+
 
 # from rest_framework.decorators import api_view
 
@@ -13,10 +15,13 @@ class ContractorApplicationViewSet(viewsets.ModelViewSet):
     API endpoint that allows contractor to be viewed or edited.
     """
 
-    # TODO left for debugging - change this to Contractor queryset
-    queryset = User.objects.all().order_by("-date_joined")
-    serializer_class = UserSerializer
+    queryset = ContractorApplication.objects.all()
+    serializer_class = ContractorApplicationSerializer
 
+
+class ContractorsViewSet(viewsets.ModelViewSet):
+    queryset = Contractor.objects.all()
+    serializer_class = ContractorSerializer
 
 # @api_view(["GET"])
 # def get_contractor_applications(request):
